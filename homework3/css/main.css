@@ -1,0 +1,139 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        background: #f49ff4;
+        font-family: sans-serif, arial, verdana, tahoma;
+    }
+    
+    #wrapper {
+        width: 80%;
+        min-width: 400px;
+        margin: 0 auto;
+        background: #9f3e9f;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        margin: 15px;
+        background: #e646f4;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    #logo img {
+        width: 100px;
+        border-radius: 20%;
+        border: 2px solid white;
+        margin: 5px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    a {
+        padding: 5px 10px;
+        margin: 10px;
+        background: #f1efef;
+        color: #9f3e9f;
+        border-radius: 20%;
+        border: 3px solid #9f3e9f;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        box-shadow: 3px 3px 0 #787878;
+    }
+    
+    a:hover {
+        background: #2516e5;
+        color: #fff;
+    }
+    
+    input {
+        height: 25px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-radius: 2px;
+    }
+    
+    .submenu {
+        background: #f49ff4;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .submenu ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 5px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .container {
+        display: flex;
+        padding: 10px 0;
+    }
+    
+    .content {
+        margin-left: 20px;
+        background: #8c89b4;
+        width: 70%;
+        flex-grow: 1;
+    }
+    
+    .sidebar {
+        width: 30%;
+    }
+    
+    .sidebar ul {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .sidebar ul li {
+        margin: 20px;
+    }
+    
+    article {
+        padding: 10px;
+        margin-left: 20px;
+    }
+    
+    footer {
+        background: #bebcd5;
+        padding: 20px 0;
+        font-size: 1.2em;
+        font-style: italic;
+        text-align: center;
+    }
